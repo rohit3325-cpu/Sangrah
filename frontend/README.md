@@ -34,3 +34,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ 
+ Notes.
+
+here for auth we use clerk the signin page shows at our url it is done by (auth) file the logic is there and there we use layout.js which creates layout for both signin and signup. we also use to get the signup box by adding clerek property and it is done by [[...sign-in]].
+
+-->in NEXT.js there are two components -server component,-client component.
+
+client component have logic like hooks,it is the frontened where user interacts.
+server components are just backened which cannt show to the client i.e it serving something to the client
